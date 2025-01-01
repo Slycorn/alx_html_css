@@ -2,6 +2,7 @@ body
     {
         display: flex;
         flex-direction: column;
+        background-color: aquamarine;
     }
 
 main
@@ -15,10 +16,14 @@ article
     {
         flex: 2;
         overflow-y: auto;
+        border-radius: 20px;
+        border-color: blueviolet;
+        border: dashed;
     }
 
 aside
     {
         flex: 1;   
         overflow-y: auto;
+        background-color: #42454e;
     }
